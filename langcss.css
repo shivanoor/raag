@@ -1,0 +1,33 @@
+header .song_side nav ul li {
+  position: relative;
+  list-style-type: none;
+  font-size: 13px;
+  color: var(--white-color);
+  margin-right: 25px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  top: 30%;
+}
+header .song_side nav .search {
+  position: relative;
+  width: 40%;
+  height: 30px;
+  padding: 0 20px;
+  border-radius: 20px;
+  color: var(--gray-color);
+  left: 0%;
+  top: 20%;
+}
+
+.popular_song {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+.logo {
+  position: relative;
+  margin-top: -25px;
+  left: -50px;
+  width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,93 @@
+body {
+  background: #0b1320;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+body::before {
+  opacity: 0.2;
+}
+
+.signup-box {
+  width: 300px;
+  height: 350px;
+  background-color: #111727;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 60px 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #f3a008;
+}
+p {
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.avatar {
+  position: absolute;
+  top: -40px;
+  width: 80px;
+  height: 80px;
+  left: 140px;
+  border-radius: 100%;
+}
+.signup-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signup-box input[type="password"],
+input[type="text"],
+input[type="email"] {
+  color: white;
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+.submit {
+  margin: 10px 0px;
+  text-align: center;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.signup-box input[type="submit"]:hover {
+  background: #f3a008;
+  cursor: pointer;
+}
+.signup-box a {
+  text-decoration: none;
+  color: #4c5262;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.signup-box a:hover {
+  color: #f3a008;
+}
+.or {
+  text-align: center;
+}
+hr {
+  margin-top: 20px;
+  width: 90%;
+}
+.signup-box i {
+  margin: 10px 30px;
+}
+i:hover {
+  cursor: pointer;
+  color: #f3a008;
+}

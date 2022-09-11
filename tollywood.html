@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Stylee.css">
+    <title>Music App</title>
+    <link rel="stylesheet" href="langcss.css">
+</head>
+<style>
+    .bg-container {
+        width: 95%;
+        height: 50%;
+        background-image: url("img/tollywoodbg.jpg");
+        background-position: 50px -200px;
+        background-size: cover;
+        margin: 10px 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+</style>
+
+
+<body>
+    <header>
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li><img class="logo" src="img/logo2.png" alt="logo"></li>
+                    </a>
+                    <a href="tollywood.html">
+                        <li> Tollywood</li>
+                    </a>
+                    <a href="bollywood.html">
+                        <li> Bollywood</li>
+                    </a>
+                    <a href="hollywood.html">
+                        <li> Hollywood</li>
+                    </a>
+                    <a href="contact.html">
+                        <li> Contact us</li>
+                    </a>
+
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input id="txtsearch" type="text" placeholder="Search Music...">
+
+
+                </div>
+
+            </nav>
+            <div class="bg-container">
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Tollywood Songs</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/RRR.jpg" alt="RRR">
+                            <i class="bi playListPlay bi-play-circle-fill" id="22"></i>
+                        </div>
+                        <h5>Naatu Naatu
+                            <br>
+                            <div class="subtitle">Rahul sipligunj</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/Sita-Ramam-2022-1.jpg" alt="sita-ramam">
+                            <i class="bi playListPlay bi-play-circle-fill" id="23"></i>
+                            <!-- change All id  -->
+                        </div>
+                        <h5>kanunna kalynam
+                            <br>
+                            <div class="subtitle">Anurag kulkarni</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/Asvr.jfif" alt="Anaganaga">
+                            <i class="bi playListPlay bi-play-circle-fill" id="21"></i>
+                        </div>
+                        <h5>Anaganaga
+                            <br>
+                            <div class="subtitle">Arman malik</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/rahman.jpg" alt="Adheera">
+                            <i class="bi playListPlay bi-play-circle-fill" id="24"></i>
+                        </div>
+                        <h5>Adheera
+                            <br>
+                            <div class="subtitle">A R Rehman</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/bimbisara.jfif" alt="Neetho unte chalu">
+                            <i class="bi playListPlay bi-play-circle-fill" id="25"></i>
+                        </div>
+                        <h5>Neetho unte chalu
+                            <br>
+                            <div class="subtitle">Mohana Bhogaraju</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/radhe shyam.jfif" alt="Ee Rathale">
+                            <i class="bi playListPlay bi-play-circle-fill" id="26"></i>
+                        </div>
+                        <h5>Ee Rathale
+                            <br>
+                            <div class="subtitle">Anurag</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/pushpa.jfif" alt="Srivalli">
+                            <i class="bi playListPlay bi-play-circle-fill" id="27"></i>
+                        </div>
+                        <h5>Srivalli
+                            <br>
+                            <div class="subtitle">sid sriram</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/alvp.jfif" alt="samajavaragamana">
+                            <i class="bi playListPlay bi-play-circle-fill" id="28"></i>
+                        </div>
+                        <h5>samajavaragamana
+                            <br>
+                            <div class="subtitle">Sid sriram</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/svp.jfif" alt="kalaavathi">
+                            <i class="bi playListPlay bi-play-circle-fill" id="29"></i>
+                        </div>
+                        <h5>kalaavathi
+                            <br>
+                            <div class="subtitle">sid sriram</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/dt.jfif" alt="Dj tillu">
+                            <i class=" bi playListPlay bi-play-circle-fill" id="30"></i>
+                        </div>
+                        <h5>Dj tillu
+                            <br>
+                            <div class="subtitle">Ram Miriyala</div>
+                        </h5>
+                    </li>
+
+                    </li>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="img/26th.jpg" alt="Alan" id="poster_master_play">
+            <h5 id="title">Vande Mataram<br>
+                <div id="title1" class="subtitle">Bankim Chandra</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+                <input type="range" id="vol" min="0" value="30" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+
+</html>

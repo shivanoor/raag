@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #111727; 
+}
+
+nav {
+    font-family:'Poppins',sans-serif;
+}
+
+nav ul{
+    font-size: 35PX;
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height:55px;
+    background-color:#1e2334;
+    color:aliceblue;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.container{
+    min-height:69vh;
+   background-color:m;
+    display:flex;
+    width:70%;
+    border-radius:12px;
+    padding:34px;
+    margin:23px auto;
+}
+
+.bottom{
+    position:sticky;
+    height:52px;
+    background-color: #1e2334;
+    bottom: 0;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center
+    
+}
+
+#myProgressBar{
+    width:80vw;
+}
+
+.icons{
+    margin-top:14px;
+}
+
+.icons i{
+    cursor:pointer;
+}
+
+.songitems{
+    height:48px;
+    display:flex;
+    background-color: #182037;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 34px;     
+}
+
+.songitems img{
+    width:43px;
+    margin: 0 23px ;
+}
+
+.timestamp{
+    margin:0 23px;
+}
